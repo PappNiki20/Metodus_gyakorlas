@@ -8,7 +8,7 @@ public class Metodus_gyakorlas {
        
         osszead(2,3);
         kiir("Az első 10 szám összege: "+elso10szamosszege());
-        kiir("Az ");
+        kiir("A %d és %d = %d "+osszead(2,3));
     }
 
     private static int elso10szamosszege() {

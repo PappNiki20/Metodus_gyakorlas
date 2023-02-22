@@ -6,16 +6,15 @@ public class Metodus_gyakorlas {
     
     public static void main(String[] args) {
        
-        osszead(2,3);
+        
         kiir("Az első 10 szám összege: "+elso10szamosszege());
-        kiir("A %d és %d = %d "+osszead(2,3));
+        kiir("\nA a + b = "+osszead(2,3));
     }
 
     private static int elso10szamosszege() {
         int ossz = 0;
         for (int i = 0; i < 10; i++) {
             ossz += i;
-            
         }
         return ossz;
     }
